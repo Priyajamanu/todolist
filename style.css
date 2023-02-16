@@ -1,0 +1,48 @@
+*
+{
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: purple;
+    text-align: center;
+    padding: 30px 40px;
+    color: white;
+    width: 50%;
+    height:200px;
+    margin-left: 90px;
+    align-items: center;
+    
+}
+.container:after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+#task input{
+    padding: 4px;
+    font-size: 14px;
+    font-style: normal;
+    width: 300px;
+    margin: 0; 
+}
+#task ::placeholder{
+    color: #362FD9;
+}
+
+#btn:hover{
+    background-color: #86E5FF;
+}
+
+#btn{
+    padding: 5px;
+    width: 20%;
+    border-radius: 0;
+    background-color: light turquoise;  
+    text-align: center;
+    color: #362FD9;
+    cursor: pointer;
+    transition: 0.2s;
+
+}
